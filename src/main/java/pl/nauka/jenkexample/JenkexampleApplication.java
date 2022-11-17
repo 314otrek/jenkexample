@@ -10,6 +10,11 @@ public class JenkexampleApplication {
 		SpringApplication.run(JenkexampleApplication.class, args);
 	}
 
+	public int substract(int a,int b){
+		return a-b;
+	}
+
+
 
 	public int added(int a,int b){
 		return a+b;
